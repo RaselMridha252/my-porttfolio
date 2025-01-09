@@ -27,6 +27,9 @@
     color: #FD6E0A;
 
  }
+
+ 
+ }
  .dakr-3{
     color: #757575;
  }
@@ -38,6 +41,11 @@
     color: #181818;
  }
 
+ .secendry-bg{
+    background-color: #FFF8F3;
+ }
+ 
+
  .btn-primary{
     background-color:  #FD6E0A;
     color: white;
@@ -48,6 +56,7 @@
     padding: 18px 35px 19px 36px;
     border-radius: 5px;
     border-style: none;
+    /* margin-right: 30px; */
  }
 
  
@@ -122,6 +131,62 @@
     height: 356px;
    
 }
+
+/* main */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* information */
+
+.all{
+    border: 1px solid black;
+    background-color: #FFFFFF;
+    margin: 0%;
+
+    
+    
+}
+
+.information{
+    border-radius: 10px;
+    padding: 131px 157px 131px 156px;
+    
+    margin-top: 94px;
+    /* border: 3px solid black; */
+}
+
+.me{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+
+.ditles{
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+}
+
+.name{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-title{
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+.item-des{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+
 
 
 
