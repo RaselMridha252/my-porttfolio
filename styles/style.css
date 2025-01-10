@@ -154,7 +154,7 @@ main{
     padding: 131px 157px 131px 156px;
     
     margin-top: 94px;
-    /* border: 3px solid black; */
+    
 }
 
 .me{
@@ -185,6 +185,26 @@ main{
     font-size: 20px;
     text-align: center;
 }
+
+/* i-do */
+.what{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+
+.i-have{
+    font-weight: regular;
+    font-size: 18px;
+    text-align: center;
+  
+}
+
+.four-work{
+    display: flex;
+}
+
+
 
 
 
