@@ -1,7 +1,7 @@
-/* *{
+*{
     margin: 0px;
-    padding: 0px;
-} */
+    padding: 0px; 
+} 
 
 /* header */
 
@@ -29,7 +29,7 @@
  }
 
  
- }
+ 
  .dakr-3{
     color: #757575;
  }
@@ -59,7 +59,41 @@
     /* margin-right: 30px; */
  }
 
- 
+ /* primary-font */
+
+ .h-three-font{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+ }
+
+ .bold-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+ }
+
+ .bold-twenty-five{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    padding-top: 20px;
+
+ }
+ .versity-p{
+    font-size: 20px;
+    font-weight: 600px;
+    color: #757575;
+ }
+
+ .versity-ditils-p{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #757575;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(207, 202, 202);
+ }
     
  
 
@@ -157,11 +191,7 @@ main{
     
 }
 
-.me{
-    font-weight: bold;
-    font-size: 35px;
-    text-align: center;
-}
+
 
 .ditles{
     font-weight: normal;
@@ -187,11 +217,7 @@ main{
 }
 
 /* i-do */
-.what{
-    font-weight: bold;
-    font-size: 35px;
-    text-align: center;
-}
+
 
 .i-have{
     font-weight: regular;
@@ -203,6 +229,66 @@ main{
 .four-work{
     display: flex;
 }
+
+/* resume-summary */
+
+
+
+.rs-su-di{
+    margin-top: 113px;
+    display: flex;
+    justify-content: left;
+    gap: 130px;
+}
+.down-load{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 0 0;
+}
+
+/* footer */
+footer{
+    background-color: #FFF8F3;
+    margin: 113px 0 0 0;
+    display: flex;
+    padding: 130px 230px;
+    gap: 100px;
+    
+}
+
+.futtr-para{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #757575;
+    padding-top: 10px;
+    padding-bottom: 10px;  
+}
+.fotter-div-one{
+   
+  /* justify-content: left;   */
+}
+#name{
+    border-radius: 5px;
+    padding: 18px 340px 18px 30px;
+    border: 0 solid;
+    margin-bottom: 24px;
+}
+
+#email{
+    border-radius: 5px;
+    padding: 18px 350px 18px 30px;
+    border: 0 solid
+     
+}
+#Message{
+    padding: 18px 365px 134px 30px;
+    border: 0 solid;
+    border-radius: 5px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+
 
 
 
