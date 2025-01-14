@@ -65,6 +65,7 @@
     font-weight: bold;
     font-size: 35px;
     text-align: center;
+    
  }
 
  .bold-title{
@@ -232,7 +233,9 @@ main{
 
 /* resume-summary */
 
-
+.resume-summary{
+    margin-top: 80px;
+}
 
 .rs-su-di{
     margin-top: 113px;
@@ -286,6 +289,14 @@ footer{
     border-radius: 5px;
     margin-top: 24px;
     margin-bottom: 24px;
+}
+
+#twitter{
+    padding: 0 24px;
+}
+
+#fb-twit-insta{
+    margin-top: 30px;
 }
 
 
